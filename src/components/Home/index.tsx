@@ -1,13 +1,13 @@
-import { HomeImg, HomeDiv } from './styles';
-
+import { HomeImg, HomeDiv, HomeContainer, HomeTitle, HomeDescription } from './styles';
+import User from '../../data/user';
 const Home = () => {
   return (
     <HomeDiv>
-      <div>
-        <h1>한마디~</h1>
-        <p>소개~</p>
-      </div>
-      <HomeImg src='/assets/home.jpg' alt='' />
+      <HomeContainer>
+        <HomeTitle>{User.homepage.title}</HomeTitle>
+        <HomeDescription>{User.homepage.description}</HomeDescription>
+      </HomeContainer>
+      <HomeImg src='/assets/home.jpg' alt='HomeMainImg' />
     </HomeDiv>
   );
 };

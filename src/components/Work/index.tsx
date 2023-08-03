@@ -1,16 +1,18 @@
+import { WorkProject, ProjectContainer } from './styles';
+
 const Work = () => {
   return (
-    <>
-      <div>
+    <WorkProject>
+      <ProjectContainer>
         <p>프로젝트1</p>
-      </div>
-      <div>
+      </ProjectContainer>
+      <ProjectContainer>
         <p>프로젝트2</p>
-      </div>
-      <div>
+      </ProjectContainer>
+      <ProjectContainer>
         <p>프로젝트3</p>
-      </div>
-    </>
+      </ProjectContainer>
+    </WorkProject>
   );
 };
 
