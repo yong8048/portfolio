@@ -7,7 +7,7 @@ const User = {
 
   homepage: {
     title: 'Web Developer',
-    description: '열심히 해볼게~'
+    description: '실패할 때 좌절하기 보다 배울 점을 찾는 웹개발자 \n "한번에" 보다 "꾸준히" 를 좋아합니다.'
   },
 
   project: [
@@ -29,7 +29,9 @@ const User = {
       logo: '사진',
       link: '링크'
     }
-  ]
+  ],
+
+  skillImg: ['/assets/skill_icon_01.png']
 };
 
 export default User;

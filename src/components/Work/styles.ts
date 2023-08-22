@@ -11,9 +11,9 @@ export const ProjectContainer = styled.div`
   height: 250px;
   border-radius: 10px;
   padding: 10px;
-  box-shadow: 5px 3px 5px 2px rgba(100, 100, 100, 0.5);
-  transition-duration: 500ms;
+  box-shadow: 1px 1px 1px 2px rgba(100, 100, 100, 0.5);
+  transition-duration: 100ms;
   &:hover {
-    box-shadow: 5px 3px 5px 3px rgba(100, 100, 100, 0.5);
+    box-shadow: 1px 1px 1px 4px rgba(100, 100, 100, 0.5);
   }
 `;

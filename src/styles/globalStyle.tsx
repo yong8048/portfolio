@@ -29,10 +29,11 @@ a {
 body {
   width: 1256px;
   margin: 0 auto;
-  background-color: #fafafa;
+  background-color: #111;
 }
 
 #root {
-  background-color: #fff;
+  background-color: #111;
+  color: #fff;
 }
 `;

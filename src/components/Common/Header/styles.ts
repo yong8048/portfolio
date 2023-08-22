@@ -5,7 +5,9 @@ export const HeaderDiv = styled.div`
   padding: 20px;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
+  background-color: #111;
+  color: #fff;
+  border-bottom: 1px solid #333;
 `;
 
 export const HeaderNav = styled.nav`
@@ -23,8 +25,8 @@ export const HeaderUl = styled.ul`
 `;
 
 export const HeaderLi = styled.li`
-  font-weight: bold;
-  font-size: 25px;
+  font-weight: 500;
+  font-size: 20px;
   :hover {
     color: #888;
     transition: color 0.3s ease-in-out;
