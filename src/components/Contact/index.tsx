@@ -26,7 +26,7 @@ const Contact = () => {
             </ContactTextDiv>
             <ContactGithub>
               <Link to='https://github.com/yong8048'>
-                <img src='../public/assets/github.png' alt='깃허브' width='50px' />
+                <img src='/assets/github.png' alt='깃허브' width='50px' />
               </Link>
             </ContactGithub>
           </ContactInfo>

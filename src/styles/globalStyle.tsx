@@ -30,6 +30,10 @@ body {
   width: 1256px;
   margin: 0 auto;
   background-color: #111;
+
+  -moz-user-select: none;
+  -ms-use-select: none;
+  user-select: none;
 }
 
 #root {

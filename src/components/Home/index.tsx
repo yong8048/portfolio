@@ -1,14 +1,24 @@
-import { HomeImg, HomeDiv, HomeContainer, HomeTitle, HomeDescription } from './styles';
+import * as S from './styles';
 import User from '../../data/user';
+import { Link } from 'react-router-dom';
 const Home = () => {
   return (
-    <HomeDiv>
-      <HomeContainer>
-        <HomeTitle>{User.homepage.title}</HomeTitle>
-        <HomeDescription>{User.homepage.description}</HomeDescription>
-      </HomeContainer>
-      <HomeImg src='/assets/home.jpg' alt='HomeMainImg' />
-    </HomeDiv>
+    <S.HomeDiv>
+      <S.HomeContainer>
+        <S.HomeTitle>{User.homepage.title}</S.HomeTitle>
+        <S.HomeSubTitle>{User.homepage.subtitle}</S.HomeSubTitle>
+        <S.HomeDescription>
+          {User.homepage.description.split('\n').map((line, index) => (
+            <span key={index}>
+              {line}
+              <br />
+            </span>
+          ))}
+        </S.HomeDescription>
+        <S.HomeLink to='/profile'>더보기</S.HomeLink>
+      </S.HomeContainer>
+      <S.HomeImg src='/assets/home.png' alt='HomeMainImg' />
+    </S.HomeDiv>
   );
 };
 

@@ -6,8 +6,9 @@ const User = {
   },
 
   homepage: {
-    title: 'Web Developer',
-    description: '실패할 때 좌절하기 보다 배울 점을 찾는 웹개발자 \n "한번에" 보다 "꾸준히" 를 좋아합니다.'
+    title: 'FRONT END DEVELOPER',
+    subtitle: '안녕하세요. 신입 프론트엔드 개발자 이승용입니다.',
+    description: '실패할 때 좌절하기 보다 배울 점을 찾는 프론트엔드 개발자 \n "한번에" 보다 "꾸준히" 를 좋아합니다.'
   },
 
   project: [
@@ -31,7 +32,15 @@ const User = {
     }
   ],
 
-  skillImg: ['/assets/skill_icon_01.png']
+  skillImg: [
+    '/assets/skill_icon_01.png',
+    '/assets/skill_icon_02.png',
+    '/assets/skill_icon_03.png',
+    '/assets/skill_icon_04.png',
+    '/assets/skill_icon_05.png',
+    '/assets/skill_icon_06.png',
+    '/assets/skill_icon_07.png'
+  ]
 };
 
 export default User;

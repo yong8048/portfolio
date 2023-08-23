@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <HeaderDiv>
       <Link to='/'>
-        <img src='/vite.svg' alt='logo' />
+        <img src='/assets/logo.png' alt='logo' width={'50px'} />
       </Link>
       <HeaderNav>
         <HeaderUl>
