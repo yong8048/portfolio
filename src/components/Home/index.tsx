@@ -1,6 +1,6 @@
 import * as S from './styles';
 import User from '../../data/user';
-import { Link } from 'react-router-dom';
+
 const Home = () => {
   return (
     <S.HomeDiv>
