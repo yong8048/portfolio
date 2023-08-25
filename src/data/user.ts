@@ -13,22 +13,34 @@ const User = {
 
   project: [
     {
-      title: 'project1',
-      description: '설명',
+      title: 'LUPIN 일정관리 프로그램',
+      description: '회사에서 직원들의 연차, 당직을 관리하는 프로그램입니다. ',
+      position: '로그인 페이지, 회원가입 페이지, 404페이지',
+      person: '5인',
+      period: '2023.04.27 ~ 2023. 05. 16',
+      skills: 'TypeScript, React, Styled-Components, Netlify',
       logo: '사진',
-      link: '링크'
+      link: 'https://github.com/MiniTeam-5/MiniProject-FE'
     },
     {
-      title: 'project2',
-      description: '설명',
+      title: 'KREAM 클론 페이지',
+      description: '한정판 거래사이트인 KREAM 페이지의 모든 기능들을 따라 만들었습니다. ',
+      position: '마이페이지, 숏컷 컴포넌트, 관심품목, 프로필 및 수정, 구매 목록 조회',
+      person: '5인',
+      period: '2023.2.2 ~ 2023.2.25',
+      skills: 'JavaScript, SCSS, HTML , Netlify',
       logo: '사진',
-      link: '링크'
+      link: 'https://github.com/team-project7/KDT4-M4public/tree/KDT4_Team7'
     },
     {
-      title: 'project3',
-      description: '설명',
+      title: 'LUPIN 일정관리 프로그램',
+      description: '회사에서 직원들의 연차, 당직을 관리하는 프로그램입니다. ',
+      position: '로그인 페이지, 회원가입 페이지, 404페이지',
+      person: '5인',
+      period: '2023.04.27 ~ 2023. 05. 16',
+      skills: 'TypeScript, React, Styled-Components, Redux-Toolkit, Netlify',
       logo: '사진',
-      link: '링크'
+      link: 'https://github.com/MiniTeam-5/MiniProject-FE'
     }
   ],
 
@@ -40,6 +52,17 @@ const User = {
     '/assets/skill_icon_05.png',
     '/assets/skill_icon_06.png',
     '/assets/skill_icon_07.png'
+  ],
+
+  historyList: [
+    '2014 시온고등학교 졸업',
+    '2017 숭실대학교 주최 IT전문과정 수료(C)',
+    '2019 KISE 청년취업아카데미 수료',
+    '2020 호서대학교 정보통신공학과 졸업',
+    '2020 숭실대학교 주최 IT전문과정 수료(C++)',
+    '2020 모블교육센터 SW개발과정 수료',
+    '2021 MVTech 비전제어팀 재직',
+    '2023 패스트캠퍼스 프론트엔드과정 수료'
   ]
 };
 
