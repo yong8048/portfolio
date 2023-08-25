@@ -34,6 +34,7 @@ export const HomeDescription = styled.h3`
 export const HomeImg = styled.img`
   width: 600px;
   height: 600px;
+  border-radius: 20px;
 `;
 
 export const HomeLink = styled(Link)`

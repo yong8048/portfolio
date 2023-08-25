@@ -44,7 +44,7 @@ export const ContactText = styled.p`
 
 export const ContactLine = styled.p`
   width: 450px;
-  border: 1px solid #fff;
+  border: 1px solid #f11;
   margin: 30px auto;
 `;
 

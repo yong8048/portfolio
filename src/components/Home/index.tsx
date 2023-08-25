@@ -17,7 +17,7 @@ const Home = () => {
         </S.HomeDescription>
         <S.HomeLink to='/profile'>더보기</S.HomeLink>
       </S.HomeContainer>
-      <S.HomeImg src='/assets/home.png' alt='HomeMainImg' />
+      <S.HomeImg src='/assets/home.jpg' alt='HomeMainImg' />
     </S.HomeDiv>
   );
 };

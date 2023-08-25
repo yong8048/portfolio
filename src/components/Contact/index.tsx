@@ -25,7 +25,7 @@ const Contact = () => {
               <ContactText>M: sylee8048@gmail.com</ContactText>
             </ContactTextDiv>
             <ContactGithub>
-              <Link to='https://github.com/yong8048'>
+              <Link to='https://github.com/yong8048' target='_blank'>
                 <img src='/assets/github.png' alt='깃허브' width='50px' />
               </Link>
             </ContactGithub>

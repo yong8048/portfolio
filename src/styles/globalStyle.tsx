@@ -29,7 +29,7 @@ a {
 body {
   width: 1256px;
   margin: 0 auto;
-  background-color: #111;
+  background-color: #000;
 
   -moz-user-select: none;
   -ms-use-select: none;
@@ -37,7 +37,7 @@ body {
 }
 
 #root {
-  background-color: #111;
+  background-color: #000;
   color: #fff;
 }
 `;
