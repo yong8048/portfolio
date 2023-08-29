@@ -2,7 +2,8 @@ const User = {
   main: {
     name: '이승용',
     phone: '010-3176-8048',
-    email: 'sylee8048@gmail.com'
+    email: 'sylee8048@gmail.com',
+    link: 'https://github.com/yong8048'
   },
 
   homepage: {

@@ -1,38 +1,34 @@
+import { useState, useEffect } from 'react';
+import User from '../../data/user';
+import * as S from './styles';
 import { Link } from 'react-router-dom';
-import {
-  ContactContainer,
-  ContactContent,
-  ContactGithub,
-  ContactLine,
-  ContactName,
-  ContactText,
-  ContactTitle,
-  ContactInfo,
-  ContactTextDiv
-} from './styles';
 
 const Contact = () => {
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    setAnimate(true);
+  }, []);
+
   return (
-    <>
-      <ContactContainer>
-        <ContactContent>
-          <ContactTitle>프론트엔드 개발자</ContactTitle>
-          <ContactLine></ContactLine>
-          <ContactName>이승용</ContactName>
-          <ContactInfo>
-            <ContactTextDiv>
-              <ContactText>P: 010-3176-8048</ContactText>
-              <ContactText>M: sylee8048@gmail.com</ContactText>
-            </ContactTextDiv>
-            <ContactGithub>
-              <Link to='https://github.com/yong8048' target='_blank'>
-                <img src='/assets/github.png' alt='깃허브' width='50px' />
-              </Link>
-            </ContactGithub>
-          </ContactInfo>
-        </ContactContent>
-      </ContactContainer>
-    </>
+    <S.ContactContainer>
+      <S.ContactContent>
+        <S.ContactTitle animate={animate}>프론트엔드 개발자</S.ContactTitle>
+        <S.ContactLine animate={animate} />
+        <S.ContactName animate={animate}>{User.main.name}</S.ContactName>
+        <S.ContactInfo>
+          <S.ContactTextDiv>
+            <S.ContactText animate={animate}>P: {User.main.phone}</S.ContactText>
+            <S.ContactText animate={animate}>M: {User.main.email}</S.ContactText>
+          </S.ContactTextDiv>
+          <S.ContactGithub>
+            <Link to={User.main.link} target='_blank'>
+              <S.ContactImg animate={animate} src='/assets/github.png' alt='github_link' />
+            </Link>
+          </S.ContactGithub>
+        </S.ContactInfo>
+      </S.ContactContent>
+    </S.ContactContainer>
   );
 };
 

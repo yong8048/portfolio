@@ -1,4 +1,4 @@
-import { styled } from 'styled-components';
+import { keyframes, styled } from 'styled-components';
 
 export const ContactContainer = styled.div`
   display: flex;
@@ -22,30 +22,36 @@ export const ContactContent = styled.div`
   }
 `;
 
-export const ContactTitle = styled.p`
+export const ContactTitle = styled.p<{ animate: boolean }>`
   width: 150px;
   margin: 0 auto;
   margin-top: 30px;
+  color: ${(props) => (props.animate ? '#fff' : '#222')};
+  transition: all 0.9s ease-in-out;
 `;
 
-export const ContactName = styled.h1`
+export const ContactName = styled.h1<{ animate: boolean }>`
   font-size: 18px;
   font-weight: bold;
   width: 450px;
-
+  color: ${(props) => (props.animate ? '#fff' : '#222')};
+  transition: all 0.9s ease-in-out;
   margin: 50px auto 80px auto;
 `;
 
-export const ContactText = styled.p`
+export const ContactText = styled.p<{ animate: boolean }>`
   font-size: 16px;
   margin-left: 25px;
   margin-bottom: 10px;
+  color: ${(props) => (props.animate ? '#fff' : '#222')};
+  transition: all 0.9s ease-in-out;
 `;
 
-export const ContactLine = styled.p`
-  width: 450px;
+export const ContactLine = styled.p<{ animate: boolean }>`
+  width: ${(props) => (props.animate ? '450px' : '1px')};
   border: 1px solid #f11;
   margin: 30px auto;
+  transition: width 0.9s ease-in-out;
 `;
 
 export const ContactInfo = styled.div`
@@ -58,4 +64,9 @@ export const ContactGithub = styled.div`
 `;
 export const ContactTextDiv = styled.div`
   width: 400px;
+`;
+export const ContactImg = styled.img<{ animate: boolean }>`
+  width: 50px;
+  opacity: ${(props) => (props.animate ? 1 : 0)};
+  transition: opacity 0.9s ease-in-out;
 `;
