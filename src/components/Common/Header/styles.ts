@@ -5,9 +5,8 @@ export const HeaderDiv = styled.div`
   padding: 20px;
   justify-content: space-between;
   align-items: center;
-  background-color: #000;
-  color: #fff;
-  border-bottom: 1px solid #333;
+
+  border-bottom: 1px solid #f00;
 `;
 
 export const HeaderNav = styled.nav`
