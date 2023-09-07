@@ -34,11 +34,11 @@ const User = {
       link: 'https://github.com/team-project7/KDT4-M4public/tree/KDT4_Team7'
     },
     {
-      title: 'LUPIN 일정관리 프로그램',
-      description: '회사에서 직원들의 연차, 당직을 관리하는 프로그램입니다. ',
-      position: '로그인 페이지, 회원가입 페이지, 404페이지',
-      person: '5인',
-      period: '2023.04.27 ~ 2023. 05. 16',
+      title: '미세먼지 알리미',
+      description: '미세먼지를 검색할 수 있는 프로그램입니다. ',
+      position: '전체',
+      person: '1인',
+      period: '2023.01.15 ~ 2023. 01. 25',
       skills: 'TypeScript, React, Styled-Components, Redux-Toolkit, Netlify',
       logo: '사진',
       link: 'https://github.com/MiniTeam-5/MiniProject-FE'
@@ -56,14 +56,14 @@ const User = {
   ],
 
   historyList: [
-    '2014 시온고등학교 졸업',
-    '2017 숭실대학교 주최 IT전문과정 수료(C)',
-    '2019 KISE 청년취업아카데미 수료',
+    '2014 시온고등학교 졸업 및 호서대학교 입학',
+    '2017 숭실대학교 주최 IT전문과정 수료 (C)',
+    '2019 KISE 청년취업아카데미 수료 (JAVA)',
     '2020 호서대학교 정보통신공학과 졸업',
-    '2020 숭실대학교 주최 IT전문과정 수료(C++)',
-    '2020 모블교육센터 SW개발과정 수료',
+    '2020 숭실대학교 주최 IT전문과정 수료 (C++)',
+    '2020 모블교육센터 SW개발과정 수료 (JAVA/ANDROID)',
     '2021 MVTech 비전제어팀 재직',
-    '2023 패스트캠퍼스 프론트엔드과정 수료'
+    '2023 패스트캠퍼스 프론트엔드과정 수료 (JAVA)'
   ]
 };
 

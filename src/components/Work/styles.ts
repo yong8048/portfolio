@@ -44,7 +44,27 @@ export const ProjectDesTop = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 10px;
 `;
 export const ProjectDesBottom = styled.div`
+  width: 600px;
+`;
+
+export const ProjectListTitle = styled.p`
+  color: #00e676;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  letter-spacing: 25px;
+`;
+
+export const ProjectListDes = styled.p`
+  color: #fff;
+  width: 400px;
+`;
+
+export const ProjectListLi = styled.p`
   width: 500px;
+  display: flex;
 `;
