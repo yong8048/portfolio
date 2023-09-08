@@ -11,13 +11,16 @@ export const ProfileLeftSection = styled.div`
 export const ProfileRightSection = styled.div`
   width: 500px;
 `;
-export const ProfileLogo = styled.div``;
+export const ProfileLogo = styled.img`
+  width: 150px;
+  margin: 100px 0 20px 0;
+`;
 export const ProfileHistory = styled.div`
-  margin-top: 100px;
+  margin-top: 50px;
 `;
 export const ProfileSubtitle = styled.div`
   display: flex;
-  margin-left: 10px;
+
   gap: 100px;
 `;
 export const ProfileH1 = styled.h1`
@@ -29,9 +32,20 @@ export const ProfileH2 = styled.h2`
   margin-top: 30px;
   margin-bottom: 10px;
 `;
+export const ProfileH3 = styled.p`
+  width: 400px;
+  font-size: 20px;
+  margin-top: 10px;
+`;
+export const ProfileH4 = styled.p`
+  width: 300px;
+  font-size: 16px;
+  margin-top: 10px;
+  color: #999;
+`;
 export const ProfileP = styled.p`
   font-size: 13px;
-  margin-top: 3px;
+  margin-top: 8px;
 `;
 export const ProfileSkills = styled.div`
   display: flex;
