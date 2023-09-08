@@ -34,11 +34,11 @@ const User = {
       link: 'https://github.com/team-project7/KDT4-M4public/tree/KDT4_Team7'
     },
     {
-      title: 'LUPIN 일정관리 프로그램',
-      description: '회사에서 직원들의 연차, 당직을 관리하는 프로그램입니다. ',
-      position: '로그인 페이지, 회원가입 페이지, 404페이지',
-      person: '5인',
-      period: '2023.04.27 ~ 2023. 05. 16',
+      title: '미세먼지 알리미',
+      description: '미세먼지를 검색할 수 있는 프로그램입니다. ',
+      position: '전체',
+      person: '1인',
+      period: '2023.01.15 ~ 2023. 01. 25',
       skills: 'TypeScript, React, Styled-Components, Redux-Toolkit, Netlify',
       logo: '사진',
       link: 'https://github.com/MiniTeam-5/MiniProject-FE'

@@ -13,6 +13,7 @@ button {
   outline:none;
   cursor:pointer;
 }
+
 input {
   outline:none;
   border:none;
@@ -20,24 +21,42 @@ input {
 
 * {
   box-sizing: border-box;
+  color: #fff;
 }
 
 a {
   text-decoration: none;
   color:inherit;
 }
+
 body {
   width: 1256px;
   margin: 0 auto;
-  background-color: #000;
+
+  background-color: hsl(0, 0%, 18%);
+  background-size: 3px 3px;
+  background-image: linear-gradient(
+      0deg,
+      hsla(0, 0%, 0%, 0) 0,
+      hsla(0, 0%, 10%, 1) 3px
+    ),
+    linear-gradient(90deg, hsla(0, 0%, 0%, 0) 0, hsla(0, 0%, 10%, 1) 5px);
 
   -moz-user-select: none;
   -ms-use-select: none;
   user-select: none;
+
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 #root {
-  background-color: #000;
-  color: #fff;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
 }
 `;

@@ -9,7 +9,7 @@ export const ContactContainer = styled.div`
 export const ContactContent = styled.div`
   width: 500px;
   height: 300px;
-  background-color: #222;
+
   border-radius: 5px;
 
   start: {
@@ -36,15 +36,19 @@ export const ContactName = styled.h1<{ animate: boolean }>`
   width: 450px;
   color: ${(props) => (props.animate ? '#fff' : '#222')};
   transition: all 0.9s ease-in-out;
-  margin: 50px auto 80px auto;
+  margin: 0px auto 5px auto;
 `;
 
 export const ContactText = styled.p<{ animate: boolean }>`
   font-size: 16px;
-  margin-left: 25px;
-  margin-bottom: 10px;
+  margin: 0 0 10px 25px;
   color: ${(props) => (props.animate ? '#fff' : '#222')};
   transition: all 0.9s ease-in-out;
+
+  &:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
 `;
 
 export const ContactLine = styled.p<{ animate: boolean }>`
@@ -58,13 +62,12 @@ export const ContactInfo = styled.div`
   width: 450px;
   display: flex;
   justify-content: space-between;
+  margin-top: 60px;
 `;
 export const ContactGithub = styled.div`
   width: 50px;
 `;
-export const ContactTextDiv = styled.div`
-  width: 400px;
-`;
+export const ContactTextDiv = styled.div``;
 export const ContactImg = styled.img<{ animate: boolean }>`
   width: 50px;
   opacity: ${(props) => (props.animate ? 1 : 0)};
