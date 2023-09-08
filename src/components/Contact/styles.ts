@@ -6,44 +6,38 @@ export const ContactContainer = styled.div`
   margin-top: 150px;
 `;
 
-export const ContactContent = styled.div`
+export const ContactContent = styled.div<{ animate: boolean }>`
   width: 500px;
   height: 300px;
-
-  border-radius: 5px;
-
-  start: {
-    scale: 0;
-  }
-
-  end: {
-    scale: 1;
-    rotatez: 360;
-  }
+  background-color: ${(props) => (props.animate ? 'hsl(0, 0%, 0%)' : 'hsl(0, 0%, 18%)')};
+  transition: all 1s ease-in-out;
+  background-size: 4px 4px;
+  background-image: linear-gradient(0deg, hsla(0, 0%, 0%, 0) 0, hsla(0, 0%, 10%, 1) 3px),
+    linear-gradient(90deg, hsla(0, 0%, 0%, 0) 0, hsla(0, 0%, 10%, 1) 5px);
 `;
 
 export const ContactTitle = styled.p<{ animate: boolean }>`
   width: 150px;
   margin: 0 auto;
   margin-top: 30px;
-  color: ${(props) => (props.animate ? '#fff' : '#222')};
-  transition: all 0.9s ease-in-out;
+  opacity: ${(props) => (props.animate ? 1 : 0)};
+  transition: all 1s ease-in-out;
 `;
 
 export const ContactName = styled.h1<{ animate: boolean }>`
   font-size: 18px;
   font-weight: bold;
   width: 450px;
-  color: ${(props) => (props.animate ? '#fff' : '#222')};
-  transition: all 0.9s ease-in-out;
+  opacity: ${(props) => (props.animate ? 1 : 0)};
+  transition: all 1s ease-in-out;
   margin: 0px auto 5px auto;
 `;
 
 export const ContactText = styled.p<{ animate: boolean }>`
   font-size: 16px;
   margin: 0 0 10px 25px;
-  color: ${(props) => (props.animate ? '#fff' : '#222')};
-  transition: all 0.9s ease-in-out;
+  opacity: ${(props) => (props.animate ? 1 : 0)};
+  transition: all 1s ease-in-out;
 
   &:hover {
     text-decoration: underline;
@@ -52,10 +46,10 @@ export const ContactText = styled.p<{ animate: boolean }>`
 `;
 
 export const ContactLine = styled.p<{ animate: boolean }>`
-  width: ${(props) => (props.animate ? '450px' : '1px')};
+  width: ${(props) => (props.animate ? '450px' : '0px')};
   border: 1px solid #f11;
   margin: 30px auto;
-  transition: width 0.9s ease-in-out;
+  transition: width 2s ease-in-out;
 `;
 
 export const ContactInfo = styled.div`
@@ -71,5 +65,5 @@ export const ContactTextDiv = styled.div``;
 export const ContactImg = styled.img<{ animate: boolean }>`
   width: 50px;
   opacity: ${(props) => (props.animate ? 1 : 0)};
-  transition: opacity 0.9s ease-in-out;
+  transition: all 1s ease-in-out;
 `;

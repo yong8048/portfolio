@@ -6,6 +6,13 @@ export const GlobalStyle = createGlobalStyle`
 ${reset}
 ${normalize}
 
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
 button {
   line-height: 1.5;
   background:transparent;
@@ -32,9 +39,9 @@ a {
 body {
   width: 1256px;
   margin: 0 auto;
-
-  background-color: hsl(0, 0%, 18%);
-  background-size: 3px 3px;
+  font-family: 'Pretendard-Regular';
+  background-color: #2e2e2e;
+  background-size: 4px 4px;
   background-image: linear-gradient(
       0deg,
       hsla(0, 0%, 0%, 0) 0,

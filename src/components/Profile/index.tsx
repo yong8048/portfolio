@@ -1,12 +1,18 @@
 import * as S from './styles';
-
 import User from '../../data/user';
+import { useEffect, useState } from 'react';
 
 const Profile = () => {
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    setAnimate(true);
+  }, []);
+
   return (
     <>
       <S.ProfileContainer>
-        <S.ProfileLeftSection>
+        <S.ProfileLeftSection animate={animate}>
           <S.ProfileLogo src='/assets/profile.jpg' alt='ProfileLogo' />
           <S.ProfileH3>제 열정과 원칙을 바탕으로</S.ProfileH3>
           <S.ProfileH3>회사의 목표 달성과 성장에 기여하겠습니다.</S.ProfileH3>
@@ -16,7 +22,7 @@ const Profile = () => {
           <S.ProfileH4>이해하기 위해 끝까지 노력합니다.</S.ProfileH4>
           <S.ProfileH4>"한번에" 보다 "꾸준히"를 좋아합니다.</S.ProfileH4>
         </S.ProfileLeftSection>
-        <S.ProfileRightSection>
+        <S.ProfileRightSection animate={animate}>
           <S.ProfileH2>이승용 </S.ProfileH2>
           <S.ProfileP>LEE SEUNGYONG</S.ProfileP>
 

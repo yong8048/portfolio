@@ -19,9 +19,6 @@ export const ProjectContainer = styled.div`
   box-shadow: 1px 1px 1px 2px rgba(100, 100, 100, 0.5);
   transition-duration: 100ms;
 
-  &:hover {
-    box-shadow: 1px 1px 1px 4px rgba(100, 100, 100, 0.5);
-  }
   img {
     border-radius: 20px;
     width: 300px;
@@ -45,18 +42,20 @@ export const ProjectDesTop = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  h1 {
+    color: #fff;
+    font-weight: bold;
+  }
 `;
 export const ProjectDesBottom = styled.div`
   width: 600px;
+  gap: 10px;
 `;
 
 export const ProjectListTitle = styled.p`
-  color: #00e676;
-  width: 150px;
-  height: 40px;
-  display: flex;
-  justify-content: space-around;
-  letter-spacing: 25px;
+  color: #229999;
+  width: 140px;
+  text-align: justify;
 `;
 
 export const ProjectListDes = styled.p`
@@ -64,6 +63,11 @@ export const ProjectListDes = styled.p`
   width: 400px;
 `;
 
+export const ProjectListUl = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+`;
 export const ProjectListLi = styled.p`
   width: 500px;
   display: flex;

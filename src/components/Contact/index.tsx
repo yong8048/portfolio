@@ -12,7 +12,7 @@ const Contact = () => {
 
   return (
     <S.ContactContainer>
-      <S.ContactContent>
+      <S.ContactContent animate={animate}>
         <S.ContactTitle animate={animate}>프론트엔드 개발자</S.ContactTitle>
         <S.ContactLine animate={animate} />
         <S.ContactName animate={animate}>{User.main.name}</S.ContactName>

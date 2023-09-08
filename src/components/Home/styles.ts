@@ -8,11 +8,12 @@ export const HomeDiv = styled.div`
 `;
 
 export const HomeContainer = styled.div`
-  margin: 20px;
+  margin: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 80%;
+  word-break: keep-all;
 `;
 
 export const HomeTitle = styled.h1`
