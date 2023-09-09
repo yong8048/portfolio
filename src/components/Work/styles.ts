@@ -7,21 +7,24 @@ export const WorkProject = styled.div`
   margin: 50px auto;
   gap: 50px;
 `;
-export const ProjectContainer = styled.div`
+export const ProjectContainer = styled.div<{ animate: boolean }>`
   display: flex;
   justify-content: space-around;
+  /* width: ${(props) => (props.animate ? '1000px' : '0px')}; */
   width: 1000px;
+  transform: ${(props) => (props.animate ? 'translateZ(0)' : ' translate3d(-100%, 0, 0)')};
+  opacity: ${(props) => (props.animate ? '1' : '0')};
   height: 350px;
   align-items: center;
   margin: 0 auto;
   border-radius: 10px;
   padding: 10px;
   box-shadow: 1px 1px 1px 2px rgba(100, 100, 100, 0.5);
-  transition-duration: 100ms;
+  transition-duration: 1s;
 
   img {
     border-radius: 20px;
-    width: 300px;
+    width: 33%;
     height: 300px;
   }
   button {
@@ -46,9 +49,28 @@ export const ProjectDesTop = styled.div`
     color: #fff;
     font-weight: bold;
   }
+  div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    img {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+    }
+    button {
+      width: 70px;
+      height: 40px;
+
+      &:hover {
+        background-color: #666;
+        transition: all 0.3s;
+      }
+    }
+  }
 `;
 export const ProjectDesBottom = styled.div`
-  width: 600px;
+  width: 67%;
   gap: 10px;
 `;
 

@@ -62,5 +62,5 @@ export const ProfileSkills = styled.div`
 `;
 
 export const ProfileSkillsImg = styled.img`
-  margin: 5px;
+  margin: 8px;
 `;

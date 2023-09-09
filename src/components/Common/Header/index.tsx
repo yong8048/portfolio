@@ -1,29 +1,33 @@
-import { Link } from 'react-router-dom';
-import { HeaderUl, HeaderLi, HeaderDiv, HeaderNav } from './styles';
+import { Link, useLocation } from 'react-router-dom';
+import * as S from './styles';
 
 const Header = () => {
+  const location = useLocation();
+  console.log(location);
+
   return (
-    <HeaderDiv>
+    <S.HeaderDiv>
       <Link to='/'>
         <img src='/assets/logo.png' alt='logo' width={'50px'} />
       </Link>
-      <HeaderNav>
-        <HeaderUl>
-          <HeaderLi>
+      <S.HeaderNav>
+        <S.HeaderUl>
+          <S.HeaderLi>
             <Link to='/'>Home</Link>
-          </HeaderLi>
-          <HeaderLi>
+          </S.HeaderLi>
+          <S.HeaderLi>
             <Link to='/profile'>Profile</Link>
-          </HeaderLi>
-          <HeaderLi>
+          </S.HeaderLi>
+          <S.HeaderLi>
             <Link to='/work'>Work</Link>
-          </HeaderLi>
-          <HeaderLi>
+          </S.HeaderLi>
+          <S.HeaderLi>
             <Link to='/contact'>Contact</Link>
-          </HeaderLi>
-        </HeaderUl>
-      </HeaderNav>
-    </HeaderDiv>
+          </S.HeaderLi>
+        </S.HeaderUl>
+        <S.HeaderLine pathname={location.pathname} />
+      </S.HeaderNav>
+    </S.HeaderDiv>
   );
 };
 

@@ -40,7 +40,7 @@ body {
   width: 1256px;
   margin: 0 auto;
   font-family: 'Pretendard-Regular';
-  background-color: #2e2e2e;
+  background-color: #333333;
   background-size: 4px 4px;
   background-image: linear-gradient(
       0deg,

@@ -1,18 +1,27 @@
 import User from '../../data/user';
-
+import { useEffect, useState } from 'react';
 import * as S from './styles';
 
 const Work = () => {
+  const [animate, setAnimate] = useState(false);
+
+  useEffect(() => {
+    setAnimate(true);
+  }, []);
+
   return (
     <S.WorkProject>
       {User.project.map((list) => (
-        <S.ProjectContainer>
+        <S.ProjectContainer animate={animate}>
           <img src='/assets/home.jpg' alt='projectImg' width={'200px'} />
 
           <S.ProjectDes>
             <S.ProjectDesTop>
               <h1>{list.title}</h1>
-              <button>이동</button>
+              <div>
+                <img src='/assets/github.png' alt='githubLink' onClick={() => window.open(list.git)} />
+                <button onClick={() => window.open(list.link)}>View</button>
+              </div>
             </S.ProjectDesTop>
             <S.ProjectDesBottom>
               <S.ProjectListUl>
@@ -38,13 +47,6 @@ const Work = () => {
                 </S.ProjectListLi>
               </S.ProjectListUl>
             </S.ProjectDesBottom>
-            {/* <S.ProjectDesBottom>
-              <p>기간: {list.period}</p>
-              <p>인원: {list.person}</p>
-              <p>역할: {list.position}</p>
-              <p>기술: {list.skills}</p>
-              <p>프로젝트 소개: {list.description}</p>
-            </S.ProjectDesBottom> */}
           </S.ProjectDes>
         </S.ProjectContainer>
       ))}

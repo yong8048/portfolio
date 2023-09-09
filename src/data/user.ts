@@ -21,7 +21,8 @@ const User = {
       period: '2023.04.27 ~ 2023. 05. 16',
       skills: 'TypeScript, React, Styled-Components, Netlify',
       logo: '사진',
-      link: 'https://github.com/MiniTeam-5/MiniProject-FE'
+      git: 'https://github.com/MiniTeam-5/MiniProject-FE',
+      link: 'https://lupintech.netlify.app/'
     },
     {
       title: 'KREAM 클론 페이지',
@@ -31,7 +32,8 @@ const User = {
       period: '2023.2.2 ~ 2023.2.25',
       skills: 'JavaScript, SCSS, HTML , Netlify',
       logo: '사진',
-      link: 'https://github.com/team-project7/KDT4-M4public/tree/KDT4_Team7'
+      git: 'https://github.com/team-project7/KDT4-M4public/tree/KDT4_Team7',
+      link: 'https://kdt4-team7--hilarious-kleicha-d49179.netlify.app/'
     },
     {
       title: '미세먼지 알리미',
@@ -41,7 +43,30 @@ const User = {
       period: '2023.01.15 ~ 2023. 01. 25',
       skills: 'TypeScript, React, Styled-Components, Redux-Toolkit, Netlify',
       logo: '사진',
+      git: 'https://github.com/MiniTeam-5/MiniProject-FE',
       link: 'https://github.com/MiniTeam-5/MiniProject-FE'
+    },
+    {
+      title: 'Todo List 어플리케이션',
+      description: 'todo list를 작성하고 확인할 수 있는 웹사이트입니다. ',
+      position: '전체',
+      person: '1인',
+      period: '2023.01.16 ~ 2023. 01. 27',
+      skills: 'HTML, SCSS, JavaScript, Vercel',
+      logo: '사진',
+      git: 'https://github.com/yong8048/KDT4-M2/tree/LeeSeungYong',
+      link: 'https://sylee-todolist.vercel.app'
+    },
+    {
+      title: '영화검색 어플리케이션',
+      description: 'Open API를 활용하여 영화를 검색할 수 있는 웹사이트입니다. ',
+      position: '전체',
+      person: '1인',
+      period: '2023.01.02 ~ 2023. 01. 13',
+      skills: 'HTML, CSS, JavaScript, Netlify',
+      logo: '사진',
+      git: 'https://github.com/yong8048/KDT4-M2/tree/LeeSeungYong',
+      link: 'https://slyee-movie.netlify.app/'
     }
   ],
 
