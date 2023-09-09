@@ -21,7 +21,7 @@ export const ProfileRightSection = styled.div<{ animate: boolean }>`
 `;
 export const ProfileLogo = styled.img`
   width: 150px;
-  height: 74px;
+  height: 192px;
   margin: 100px 0 20px 0;
 `;
 export const ProfileHistory = styled.div`
