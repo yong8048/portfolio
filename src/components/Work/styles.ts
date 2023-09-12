@@ -26,6 +26,7 @@ export const ProjectContainer = styled.div<{ animate: boolean }>`
     border-radius: 20px;
     width: 33%;
     height: 300px;
+    object-fit: fill;
   }
   button {
     border-radius: 20px;
@@ -57,6 +58,11 @@ export const ProjectDesTop = styled.div`
       width: 40px;
       height: 40px;
       cursor: pointer;
+
+      &:hover {
+        opacity: 0.5;
+        transition: all 0.3s;
+      }
     }
     button {
       width: 70px;

@@ -13,7 +13,7 @@ const Work = () => {
     <S.WorkProject>
       {User.project.map((list) => (
         <S.ProjectContainer animate={animate}>
-          <img src='/assets/home.jpg' alt='projectImg' width={'200px'} />
+          <img src={list.logo} alt='projectImg' width={'200px'} />
 
           <S.ProjectDes>
             <S.ProjectDesTop>

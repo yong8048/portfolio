@@ -20,7 +20,7 @@ const User = {
       person: 'FE - 5인, BE - 5인',
       period: '2023.04.27 ~ 2023. 05. 16',
       skills: 'TypeScript, React, Styled-Components, Netlify',
-      logo: '사진',
+      logo: './assets/work1.gif',
       git: 'https://github.com/MiniTeam-5/MiniProject-FE',
       link: 'https://lupintech.netlify.app/'
     },
@@ -31,7 +31,7 @@ const User = {
       person: 'FE - 5인',
       period: '2023.2.2 ~ 2023.2.25',
       skills: 'JavaScript, SCSS, HTML , Netlify',
-      logo: '사진',
+      logo: 'assets/work2.gif',
       git: 'https://github.com/team-project7/KDT4-M4public/tree/KDT4_Team7',
       link: 'https://kdt4-team7--hilarious-kleicha-d49179.netlify.app/'
     },
@@ -42,7 +42,7 @@ const User = {
       person: '1인',
       period: '2023.01.15 ~ 2023. 01. 25',
       skills: 'TypeScript, React, Styled-Components, Redux-Toolkit, Netlify',
-      logo: '사진',
+      logo: 'assets/work5.png',
       git: 'https://github.com/MiniTeam-5/MiniProject-FE',
       link: 'https://github.com/MiniTeam-5/MiniProject-FE'
     },
@@ -53,7 +53,7 @@ const User = {
       person: '1인',
       period: '2023.01.16 ~ 2023. 01. 27',
       skills: 'HTML, SCSS, JavaScript, Vercel',
-      logo: '사진',
+      logo: 'assets/work3.png',
       git: 'https://github.com/yong8048/KDT4-M2/tree/LeeSeungYong',
       link: 'https://sylee-todolist.vercel.app'
     },
@@ -64,7 +64,7 @@ const User = {
       person: '1인',
       period: '2023.01.02 ~ 2023. 01. 13',
       skills: 'HTML, CSS, JavaScript, Netlify',
-      logo: '사진',
+      logo: 'assets/work4.png',
       git: 'https://github.com/yong8048/KDT4-M2/tree/LeeSeungYong',
       link: 'https://slyee-movie.netlify.app/'
     }
