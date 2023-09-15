@@ -21,7 +21,7 @@ const User = {
       period: '2023.04.27 ~ 2023. 05. 16',
       skills: 'TypeScript, React, Styled-Components, Netlify',
       logo: './assets/work1.gif',
-      git: 'https://github.com/MiniTeam-5/MiniProject-FE',
+      git: 'https://github.com/yong8048/MiniProject-FE/tree/develop',
       link: 'https://lupintech.netlify.app/'
     },
     {
@@ -32,7 +32,7 @@ const User = {
       period: '2023.2.2 ~ 2023.2.25',
       skills: 'JavaScript, SCSS, HTML , Netlify',
       logo: 'assets/work2.gif',
-      git: 'https://github.com/team-project7/KDT4-M4public/tree/KDT4_Team7',
+      git: 'https://github.com/yong8048/KDT4-M4public/tree/KDT4_Team7',
       link: 'https://kdt4-team7--hilarious-kleicha-d49179.netlify.app/'
     },
     {
@@ -40,9 +40,9 @@ const User = {
       description: '미세먼지를 검색할 수 있는 프로그램입니다. ',
       position: '전체',
       person: '1인',
-      period: '2023.01.15 ~ 2023. 01. 25',
-      skills: 'TypeScript, React, Styled-Components, Redux-Toolkit, Netlify',
-      logo: 'assets/work5.png',
+      period: '2023.01.24 ~ 2023. 02.02',
+      skills: 'JavaScript, React, Redux-toolkit, SCSS, HTML, Vercel',
+      logo: 'assets/work5.gif',
       git: 'https://github.com/MiniTeam-5/MiniProject-FE',
       link: 'https://github.com/MiniTeam-5/MiniProject-FE'
     },
@@ -51,7 +51,7 @@ const User = {
       description: 'todo list를 작성하고 확인할 수 있는 웹사이트입니다. ',
       position: '전체',
       person: '1인',
-      period: '2023.01.16 ~ 2023. 01. 27',
+      period: '2023.01.16 ~ 2023. 01. 25',
       skills: 'HTML, SCSS, JavaScript, Vercel',
       logo: 'assets/work3.png',
       git: 'https://github.com/yong8048/KDT4-M2/tree/LeeSeungYong',

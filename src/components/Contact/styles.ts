@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import { styled } from 'styled-components';
 
 export const ContactContainer = styled.div`
@@ -61,9 +62,27 @@ export const ContactInfo = styled.div`
 export const ContactGithub = styled.div`
   width: 50px;
 `;
-export const ContactTextDiv = styled.div``;
+export const ContactTextDiv = styled.div`
+  p:last-child {
+    text-decoration: none;
+    cursor: auto;
+  }
+`;
 export const ContactImg = styled.img<{ animate: boolean }>`
   width: 50px;
   opacity: ${(props) => (props.animate ? 1 : 0)};
   transition: all 1s ease-in-out;
+`;
+export const ContactCopyMessage = styled(motion.div)`
+  position: fixed;
+  left: 50%;
+  margin-left: -110px;
+  bottom: 80px;
+  padding: 10px 15px;
+  width: 220px;
+  height: 45px;
+  line-height: 1.6;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
 `;
