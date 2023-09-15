@@ -43,8 +43,8 @@ const User = {
       period: '2023.01.24 ~ 2023. 02.02',
       skills: 'JavaScript, React, Redux-toolkit, SCSS, HTML, Vercel',
       logo: 'assets/work5.gif',
-      git: 'https://github.com/MiniTeam-5/MiniProject-FE',
-      link: 'https://github.com/MiniTeam-5/MiniProject-FE'
+      git: 'https://github.com/yong8048/air-pollution',
+      link: 'https://sylee-air-pollution.vercel.app/'
     },
     {
       title: 'Todo List 어플리케이션',
