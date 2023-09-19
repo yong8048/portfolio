@@ -22,7 +22,7 @@ const Home = () => {
             </span>
           ))}
         </S.HomeDescription>
-        <S.HomeLink to='/profile'>MORE</S.HomeLink>
+        {/* <S.HomeLink to='/profile'>MORE</S.HomeLink> */}
       </S.HomeContainer>
       <S.HomeImg src='/assets/home.gif' alt='HomeMainImg' />
     </S.HomeDiv>

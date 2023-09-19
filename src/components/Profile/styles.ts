@@ -8,14 +8,14 @@ export const ProfileContainer = styled.div`
 export const ProfileLeftSection = styled.div<{ animate: boolean }>`
   width: 500px;
   opacity: ${(props) => (props.animate ? 1 : 0)};
-  transition: all 1s ease-in-out;
+  transition: all 0.7s ease-in-out;
 `;
 export const ProfileRightSection = styled.div<{ animate: boolean }>`
   * {
     opacity: ${(props) => (props.animate ? 1 : 0)};
     transform: ${(props) => (props.animate ? 'translateZ(0)' : ' translate3d(100%, 0, 0)')};
-    transition: all 1s ease-in-out;
-    transition-delay: 1s;
+    transition: all 0.7s ease-in-out;
+    transition-delay: 0.7s;
   }
   width: 500px;
 `;
@@ -26,6 +26,10 @@ export const ProfileLogo = styled.img`
 `;
 export const ProfileHistory = styled.div`
   margin-top: 50px;
+
+  p {
+    font-size: 16px;
+  }
 `;
 export const ProfileSubtitle = styled.div`
   display: flex;

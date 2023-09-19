@@ -38,8 +38,14 @@ const Work = () => {
                   <S.ProjectListDes>{list.skills}</S.ProjectListDes>
                 </S.ProjectListLi>
                 <S.ProjectListLi>
-                  <S.ProjectListTitle>상세역할</S.ProjectListTitle>
-                  <S.ProjectListDes>{list.position}</S.ProjectListDes>
+                  {list.position ? (
+                    <>
+                      <S.ProjectListTitle>상세역할</S.ProjectListTitle>
+                      <S.ProjectListDes>{list.position}</S.ProjectListDes>
+                    </>
+                  ) : (
+                    <></>
+                  )}
                 </S.ProjectListLi>
                 <S.ProjectListLi>
                   <S.ProjectListTitle>프로젝트 소개</S.ProjectListTitle>

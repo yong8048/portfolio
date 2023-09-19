@@ -38,8 +38,8 @@ const User = {
     {
       title: '미세먼지 알리미',
       description: '미세먼지를 검색할 수 있는 프로그램입니다. ',
-      position: '전체',
-      person: '1인',
+      position: '',
+      person: '개인',
       period: '2023.01.24 ~ 2023. 02.02',
       skills: 'JavaScript, React, Redux-toolkit, SCSS, HTML, Vercel',
       logo: 'assets/work5.gif',
@@ -49,8 +49,8 @@ const User = {
     {
       title: 'Todo List 어플리케이션',
       description: 'todo list를 작성하고 확인할 수 있는 웹사이트입니다. ',
-      position: '전체',
-      person: '1인',
+      position: '',
+      person: '개인',
       period: '2023.01.16 ~ 2023. 01. 25',
       skills: 'HTML, SCSS, JavaScript, Vercel',
       logo: 'assets/work3.png',
@@ -60,8 +60,8 @@ const User = {
     {
       title: '영화검색 어플리케이션',
       description: 'Open API를 활용하여 영화를 검색할 수 있는 웹사이트입니다. ',
-      position: '전체',
-      person: '1인',
+      position: '',
+      person: '개인',
       period: '2023.01.02 ~ 2023. 01. 13',
       skills: 'HTML, CSS, JavaScript, Netlify',
       logo: 'assets/work4.png',
@@ -81,14 +81,14 @@ const User = {
   ],
 
   historyList: [
-    '2014 시온고등학교 졸업 및 호서대학교 입학',
-    '2017 숭실대학교 주최 IT전문과정 수료 (C)',
-    '2019 KISE 청년취업아카데미 수료 (JAVA)',
-    '2020 호서대학교 정보통신공학과 졸업',
-    '2020 숭실대학교 주최 IT전문과정 수료 (C++)',
+    '2023 패스트캠퍼스 프론트엔드과정 수료 (JavaScript)',
+    '2021 MVTech 영상처리제어개발팀 재직 (C++)',
     '2020 모블교육센터 SW개발과정 수료 (JAVA/ANDROID)',
-    '2021 MVTech 비전제어팀 재직 (C++)',
-    '2023 패스트캠퍼스 프론트엔드과정 수료 (JAVA)'
+    '2020 숭실대학교 주최 IT전문과정 수료 (C++)',
+    '2020 호서대학교 정보통신공학과 졸업',
+    '2019 KISE 청년취업아카데미 수료 (C#/JAVA)',
+    '2017 숭실대학교 주최 IT전문과정 수료 (C)',
+    '2014 시온고등학교 졸업 및 호서대학교 입학'
   ]
 };
 

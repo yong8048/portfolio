@@ -18,23 +18,23 @@ export const HomeContainer = styled.div<{ animate: boolean }>`
 
   h1 {
     opacity: ${(props) => (props.animate ? 1 : 0)};
-    transition: all 1s ease-in-out;
+    transition: all 0.8s ease-in-out;
   }
 
   h2 {
     opacity: ${(props) => (props.animate ? 1 : 0)};
-    transition: all 1s ease-in-out;
-    transition-delay: 1s;
+    transition: all 0.8s ease-in-out;
+    transition-delay: 0.8s;
   }
   h3 {
     opacity: ${(props) => (props.animate ? 1 : 0)};
-    transition: all 1s ease-in-out;
-    transition-delay: 2s;
+    transition: all 0.8s ease-in-out;
+    transition-delay: 1.6s;
   }
   a {
     opacity: ${(props) => (props.animate ? 1 : 0)};
-    transition: all 1s ease-in-out;
-    transition-delay: 3s;
+    transition: all 0.8s ease-in-out;
+    transition-delay: 2.4s;
   }
 `;
 
