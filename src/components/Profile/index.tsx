@@ -33,7 +33,7 @@ const Profile = () => {
             </div>
             <div>
               <S.ProfileH2>주소</S.ProfileH2>
-              <S.ProfileP>경기도 부천시</S.ProfileP>
+              <S.ProfileP>경기도 성남시</S.ProfileP>
             </div>
             <div>
               <S.ProfileH2>E-mail</S.ProfileH2>

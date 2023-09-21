@@ -23,6 +23,7 @@ export const ContactTitle = styled.p<{ animate: boolean }>`
   margin-top: 30px;
   opacity: ${(props) => (props.animate ? 1 : 0)};
   transition: all 1s ease-in-out;
+  text-align: center;
 `;
 
 export const ContactName = styled.h1<{ animate: boolean }>`
