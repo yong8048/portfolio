@@ -14,6 +14,41 @@ const User = {
 
   project: [
     {
+      title: 'moanda-ve 카페 사이트',
+      description: '수원에 있는 moanda-ve 비건카페의 사이트입니다. ',
+      position: '프로젝트 진행 중',
+      person: 'FE - 2인',
+      period: '2023.12.25 ~ 진행 중',
+      skills: 'TypeScript, React, Styled-Components, Vercel',
+      logo: './assets/moanda-ve.png',
+      git: 'https://github.com/yong8048/moanda-ve',
+      link: 'https://moanda-ve.vercel.app/'
+    },
+    {
+      title: 'Disearch - 디스코드 사이트',
+      description:
+        'Disearch는 디스코드 사용자들의 만남의 장을 제공하는 웹 사이트입니다. \n이곳에서 사용자들은 자신이 운영하는 디스코드 서버를 홍보하고, 다양한 주제의 디스코드 서버를 쉽게 찾아볼 수 있습니다.',
+      position: '프로젝트 진행 중',
+      person: 'FE - 2인, BE - 1인',
+      period: '2023.04.27 ~ 진행 중',
+      skills: 'TypeScript, React, TailwindCSS, Vercel',
+      logo: './assets/disearch.png',
+      git: 'https://github.com/yong8048/DISEARCH-FRONT-END',
+      link: 'https://disearch.vercel.app/'
+    },
+    {
+      title: '새벽감성 - 24시카페 검색사이트',
+      description:
+        '새벽감성은 올빼미족들을 위한 24시간 운영하는 카페를 검색할 수 있는 웹 사이트입니다. \n이 사이트를 통해 사용자들은 언제든지 열려 있는 카페를 쉽게 찾아낼 수 있어, 새벽 시간대에도 편안히 카페에서 시간을 보낼 수 있습니다.',
+      position: '로그인, 네이버 맵, 헤더, 카페정보, 백오피스 대시보드, 백오피스 정보수정',
+      person: 'FE - 2인',
+      period: '2023.11.18 ~ 2024. 01. 04',
+      skills: 'TypeScript, Next.js, TailwindCSS, Firebase, Vercel',
+      logo: './assets/cafe.png',
+      git: 'https://github.com/yong8048/cafe-24',
+      link: 'https://www.saebyeok-gamseong.com/'
+    },
+    {
       title: 'LUPIN 일정관리 프로그램',
       description: '회사에서 직원들의 연차, 당직을 관리하는 프로그램입니다. ',
       position: '로그인 페이지, 회원가입 페이지, 404페이지',

@@ -6,6 +6,7 @@ export const WorkProject = styled.div`
   width: 80%;
   margin: 50px auto;
   gap: 50px;
+  word-break: keep-all;
 `;
 export const ProjectContainer = styled.div<{ animate: boolean }>`
   display: flex;
@@ -27,6 +28,12 @@ export const ProjectContainer = styled.div<{ animate: boolean }>`
     width: 33%;
     height: 300px;
     object-fit: fill;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.8;
+      transition: all 0.3s;
+    }
   }
   button {
     border-radius: 20px;
@@ -48,6 +55,7 @@ export const ProjectDesTop = styled.div`
   margin-bottom: 10px;
   h1 {
     color: #fff;
+    font-size: x-large;
     font-weight: bold;
   }
   div {
@@ -87,8 +95,9 @@ export const ProjectListTitle = styled.p`
 `;
 
 export const ProjectListDes = styled.p`
-  color: #fff;
+  color: #aaa;
   width: 400px;
+  white-space: pre-line;
 `;
 
 export const ProjectListUl = styled.div`

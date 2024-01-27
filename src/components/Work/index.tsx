@@ -13,14 +13,14 @@ const Work = () => {
     <S.WorkProject>
       {User.project.map((list) => (
         <S.ProjectContainer animate={animate}>
-          <img src={list.logo} alt='projectImg' width={'200px'} />
+          <img src={list.logo} alt='projectImg' width={'200px'} onClick={() => window.open(list.link)} />
 
           <S.ProjectDes>
             <S.ProjectDesTop>
               <h1>{list.title}</h1>
               <div>
                 <img src='/assets/github.png' alt='githubLink' onClick={() => window.open(list.git)} />
-                <button onClick={() => window.open(list.link)}>View</button>
+                <button onClick={() => window.open(list.link)}>Site</button>
               </div>
             </S.ProjectDesTop>
             <S.ProjectDesBottom>
