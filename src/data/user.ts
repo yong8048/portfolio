@@ -14,11 +14,11 @@ const User = {
 
   project: [
     {
-      title: 'moanda-ve 카페 사이트',
+      title: 'moanda-ve - 카페 사이트',
       description: '수원에 있는 moanda-ve 비건카페의 사이트입니다. ',
       position: '프로젝트 진행 중',
       person: 'FE - 2인',
-      period: '2023.12.25 ~ 진행 중',
+      period: '2023.12.18 ~ 진행 중',
       skills: 'TypeScript, React, Styled-Components, Vercel',
       logo: './assets/moanda-ve.png',
       git: 'https://github.com/yong8048/moanda-ve',
@@ -30,7 +30,7 @@ const User = {
         'Disearch는 디스코드 사용자들의 만남의 장을 제공하는 웹 사이트입니다. \n이곳에서 사용자들은 자신이 운영하는 디스코드 서버를 홍보하고, 다양한 주제의 디스코드 서버를 쉽게 찾아볼 수 있습니다.',
       position: '프로젝트 진행 중',
       person: 'FE - 2인, BE - 1인',
-      period: '2023.04.27 ~ 진행 중',
+      period: '2023.12.25 ~ 진행 중',
       skills: 'TypeScript, React, TailwindCSS, Vercel',
       logo: './assets/disearch.png',
       git: 'https://github.com/yong8048/DISEARCH-FRONT-END',
@@ -60,8 +60,8 @@ const User = {
       link: 'https://lupintech.netlify.app/'
     },
     {
-      title: 'KREAM 클론 페이지',
-      description: '한정판 거래사이트인 KREAM 페이지의 모든 기능들을 따라 만들었습니다. ',
+      title: 'KREAM 웹 사이트',
+      description: '한정판 거래사이트인 KREAM 페이지의 모든 기능들을 동일하게 만들었습니다. ',
       position: '마이페이지, 숏컷 컴포넌트, 관심품목, 프로필 및 수정, 구매 목록 조회',
       person: 'FE - 5인',
       period: '2023.2.2 ~ 2023.2.25',
@@ -82,7 +82,7 @@ const User = {
       link: 'https://sylee-air-pollution.vercel.app/'
     },
     {
-      title: 'Todo List 어플리케이션',
+      title: 'Todo List 웹 사이트',
       description: 'todo list를 작성하고 확인할 수 있는 웹사이트입니다. ',
       position: '',
       person: '개인',
@@ -93,8 +93,8 @@ const User = {
       link: 'https://sylee-todolist.vercel.app'
     },
     {
-      title: '영화검색 어플리케이션',
-      description: 'Open API를 활용하여 영화를 검색할 수 있는 웹사이트입니다. ',
+      title: '영화검색 웹 사이트',
+      description: 'omdb API를 활용하여 영화를 검색할 수 있는 웹사이트입니다. ',
       position: '',
       person: '개인',
       period: '2023.01.02 ~ 2023. 01. 13',
