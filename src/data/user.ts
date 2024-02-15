@@ -28,9 +28,9 @@ const User = {
       title: 'Disearch - 디스코드 사이트',
       description:
         'Disearch는 디스코드 사용자들의 만남의 장을 제공하는 웹 사이트입니다. \n이곳에서 사용자들은 자신이 운영하는 디스코드 서버를 홍보하고, 다양한 주제의 디스코드 서버를 쉽게 찾아볼 수 있습니다.',
-      position: '프로젝트 진행 중',
+      position: 'Discord API를 이용한 로그인, 마이페이지, Discord 서버 등록',
       person: 'FE - 2인, BE - 1인',
-      period: '2023.12.25 ~ 진행 중',
+      period: '2023.12.25 ~ 2024.02.15',
       skills: 'TypeScript, React, TailwindCSS, Vercel',
       logo: './assets/disearch.png',
       git: 'https://github.com/yong8048/DISEARCH-FRONT-END',
