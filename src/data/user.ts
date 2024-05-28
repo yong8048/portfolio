@@ -16,10 +16,10 @@ const User = {
     {
       title: 'moanda-ve 카페 사이트',
       description: '수원에 있는 moanda-ve 비건카페의 사이트입니다. ',
-      position: '프로젝트 진행 중',
+      position: '소개 페이지, 메뉴소개 페이지, 답례품 페이지',
       person: 'FE - 2인',
-      period: '2023.12.25 ~ 진행 중',
-      skills: 'TypeScript, React, Styled-Components, Vercel',
+      period: '2023.12.25 ~ 2024.04.18',
+      skills: 'React, TypeScript, Styled-Components, Vercel, kakao API, Instagram API',
       logo: './assets/moanda-ve.png',
       git: 'https://github.com/yong8048/moanda-ve',
       link: 'https://moanda-ve.vercel.app/'
@@ -28,10 +28,11 @@ const User = {
       title: 'Disearch - 디스코드 사이트',
       description:
         'Disearch는 디스코드 사용자들의 만남의 장을 제공하는 웹 사이트입니다. \n이곳에서 사용자들은 자신이 운영하는 디스코드 서버를 홍보하고, 다양한 주제의 디스코드 서버를 쉽게 찾아볼 수 있습니다.',
-      position: '프로젝트 진행 중',
+      position:
+        '마이페이지, 헤더 컴포넌트, 서버 추가 페이지, Discord 서버 등록, Discord Bot 생성, Discord User API, Discord Invite API',
       person: 'FE - 2인, BE - 1인',
-      period: '2023.04.27 ~ 진행 중',
-      skills: 'TypeScript, React, TailwindCSS, Vercel',
+      period: '2024.01.18 ~ 2024.02.20',
+      skills: 'React, TypeScript, TailwindCSS, Vercel, Discord API',
       logo: './assets/disearch.png',
       git: 'https://github.com/yong8048/DISEARCH-FRONT-END',
       link: 'https://disearch.vercel.app/'
