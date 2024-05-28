@@ -14,7 +14,7 @@ const User = {
 
   project: [
     {
-      title: 'moanda-ve 카페 사이트',
+      title: 'moanda-ve - 카페 사이트',
       description: '수원에 있는 moanda-ve 비건카페의 사이트입니다. ',
       position: '소개 페이지, 메뉴소개 페이지, 답례품 페이지',
       person: 'FE - 2인',
@@ -61,8 +61,8 @@ const User = {
       link: 'https://lupintech.netlify.app/'
     },
     {
-      title: 'KREAM 클론 페이지',
-      description: '한정판 거래사이트인 KREAM 페이지의 모든 기능들을 따라 만들었습니다. ',
+      title: 'KREAM 웹 사이트',
+      description: '한정판 거래사이트인 KREAM 페이지의 모든 기능들을 동일하게 만들었습니다. ',
       position: '마이페이지, 숏컷 컴포넌트, 관심품목, 프로필 및 수정, 구매 목록 조회',
       person: 'FE - 5인',
       period: '2023.2.2 ~ 2023.2.25',
@@ -83,7 +83,7 @@ const User = {
       link: 'https://sylee-air-pollution.vercel.app/'
     },
     {
-      title: 'Todo List 어플리케이션',
+      title: 'Todo List 웹 사이트',
       description: 'todo list를 작성하고 확인할 수 있는 웹사이트입니다. ',
       position: '',
       person: '개인',
@@ -94,8 +94,8 @@ const User = {
       link: 'https://sylee-todolist.vercel.app'
     },
     {
-      title: '영화검색 어플리케이션',
-      description: 'Open API를 활용하여 영화를 검색할 수 있는 웹사이트입니다. ',
+      title: '영화검색 웹 사이트',
+      description: 'omdb API를 활용하여 영화를 검색할 수 있는 웹사이트입니다. ',
       position: '',
       person: '개인',
       period: '2023.01.02 ~ 2023. 01. 13',
