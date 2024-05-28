@@ -14,7 +14,7 @@ const User = {
 
   project: [
     {
-      title: 'moanda-ve - 카페 사이트',
+      title: "moanda've - 카페 사이트",
       description: '수원에 있는 moanda-ve 비건카페의 사이트입니다. ',
       position: '소개 페이지, 메뉴소개 페이지, 답례품 페이지',
       person: 'FE - 2인',
